@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background: #EA5455;
+  color: #B20600;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #00092C;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+h2 {
+  color: #869e25;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  background-color: gold;
+}
+
+.card-white {
+  background-color: rgb(3, 255, 171);
+  padding: 50px;
+  box-shadow: 0px 30px 30px rgb(0 0 0 / 10%);
+  border-radius: 50px;
+  margin: 100px;
+  text-align: center
+}
+
+#tom {
+  width: 250px;
+  height: auto;
+
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
